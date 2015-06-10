@@ -1,0 +1,3 @@
+hdfs dfs -put /home/cloudera/workspace/ivan-rozas-patrones/data/* datos/log
+hadoop jar ivan-rozas-patrones-0.0.1-SNAPSHOT-job.jar datos/log/* datos/patrones
+
